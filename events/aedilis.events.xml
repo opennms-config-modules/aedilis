@@ -20,7 +20,8 @@
         <descr>&lt;p&gt;This event is generated when the equipment is restarted or powered on.&lt;/p&gt;
             &lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             InputName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;KSM-1 coldStart&lt;/p&gt;</logmsg>
         <severity>Normal</severity>
     </event>
@@ -54,7 +55,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Normal</severity>
     </event>
@@ -89,7 +91,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Warning</severity>
     </event>
@@ -123,7 +126,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Minor</severity>
     </event>
@@ -157,7 +161,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Major</severity>
     </event>
@@ -192,7 +197,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Critical</severity>
     </event>
@@ -226,7 +232,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Normal</severity>
     </event>
@@ -260,7 +267,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Warning</severity>
     </event>
@@ -294,7 +302,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Minor</severity>
     </event>
@@ -328,7 +337,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Major</severity>
     </event>
@@ -363,7 +373,8 @@
             TimeOn&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#5]%
             &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;
             TimeOff&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#6]%
-            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            &lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>&lt;p&gt;%parm[#4]% %parm[#1]% %parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Critical</severity>
     </event>
